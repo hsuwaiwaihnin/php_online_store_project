@@ -1,0 +1,90 @@
+#crsel{
+	width: 100%;
+}
+
+nav{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,37,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+#logo{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+}
+#contact,#arrival{
+	background-color: darkgray;
+}
+
+hr{
+	border: 1px solid black;
+	width: 15%;
+}
+
+.map-responsive{
+	overflow: hidden;
+	padding-bottom: 50%;
+	position: relative;
+	height: 0;
+}
+.map-responsive iframe{
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+#footer{
+	background-color: black;
+}
+#scroll a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+#scroll a:hover {
+  background-color: #4CAF50;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+#count .p1[data-count]:after{
+	position: absolute;
+	right: 10%;
+	top: 8%;
+	content: attr(data-count);
+	font-size: 25%;
+	padding: 2em;
+	border-radius: 50%;
+	line-height: 1em;
+	color: white;
+	background: rgb(255,0,0,.85);
+	text-align: center;
+	min-width: 1em;
+	font-weight: bold;
+}
+
+@media only screen and (min-width: 768px){
+	#count{
+		font-size: 1.2rem;
+		margin-top: -0.5rem;
+	}
+}
+
+#login{
+	background-color: black;
+}
